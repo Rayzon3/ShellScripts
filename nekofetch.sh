@@ -25,12 +25,10 @@ shell=$(basename $SHELL)
 # (=^.^=)
 #  (")(")_/
 tput clear
-cat << EOF
-             
+cat << EOF             
              $f3$k $echo Kernel version >>  $t$kernel
    /\_/\     $f4$a $echo Architecture >> $t$architecture 
   (=^.^=)    $f2$sh $echo Shell >>  $t$shell
    (")(")_/  $f5$r $echo Resolution >> $t$resolution
-             
-                    
+
 EOF
